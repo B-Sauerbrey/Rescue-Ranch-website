@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>form</title>
+        <link rel="icon" href = "data/icon-menu.png" type = "image/x -icon">
+        <style>
+            main{
+                font-size: 150%;
+                width: 80%;
+                padding-left: 150px;
+                font: "times new roman";
+            }
+            header{
+                top: 50px
+            }
+            .button {
+            background-color:brown;
+            border: none;
+            color: gainsboro;
+            padding: 20px 34px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            margin: 4px 2px;
+            cursor: pointer;
+        </style>
+        
+    
+    
+                <header style="background-color:darksalmon">
+        
+        <br>
+        <center>
+            <a href="nature1.htm" class="button">Home</a>
+            <a href="nature2.html" class="button">Donate</a>
+            <a href="nature3.html" class="button">Form</a>
+        </center>
+        <br>
+        </header>
+        </head>
+        <main>
+        
+            <article>
+                <center>
+                <img src="data/BAT1.png" with="300"Height="300";>
+                    
+                </center>
+                <head lang="en">
+                <meta charset="UTF-8">
+                <script language="JavaScript">
+                function showInput() {
+                        document.getElementById('display').innerHTML = 
+                            document.getElementById("user_input").value;
+                    
+                    }
+                  </script>
+
+                  </head>
+                <body>
+                    <center>
+                  <form>
+                    <label><b>Enter your name</b></label>
+                    <input type="text" name="message" id="user_input">
+                    <br>
+                  </form>
+                    <br>
+                  <input type="submit" onclick="showInput();"><br>
+                  <label>Name entered: </label>
+                  <p><span id='display' ></span></p>
+                    </center>
+                    </body>
+
+       
+    
+</html>
